@@ -1,12 +1,12 @@
 body{
-    background-image: url("https://wallimpex.com/data/out/221/wood-floor-wallpapers-6054123.jpg");
- background-color: #cccccc;
+    /*background-image: url("https://wallimpex.com/data/out/221/wood-floor-wallpapers-6054123.jpg");*/
+ background-color: #cccccc; font-family: 'Cinzel', serif;
 }
 p{
     color: black;
 }
 h1{
-    color: rgb(205, 50, 171);
+    color: rgb(165, 46, 66);
 }
 
 /*css for column*/
@@ -17,9 +17,9 @@ h1{
   /* Create three equal columns that floats next to each other */
   .column {
     float: left;
-    width: 10%;
+    width: 15%;
     padding: 10px;
-    height: 150px; /* Should be removed. Only for demonstration */
+   /* height: 100px; /* Should be removed. Only for demonstration */
     margin: 0.30%
   }
   
@@ -29,10 +29,17 @@ h1{
     display: table;
     clear: both;
   }
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-    }
+  /* @media screen and (max-width: 600px) {
+  } */
+    /* .column {
+      width: 50%;
+    } */
 
+    .code {
+        background-color: rgb(126, 56, 56);
+        border-radius: 3px;
+        font-family: courier, monospace;
+        padding: 0 3px;
+    }
 
 

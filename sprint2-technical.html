@@ -1,23 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <title>HTML Template</title>
         <meta charset="UTF-8">
        <!-- <link href="styles/main.css" rel="stylesheet" type="text/css" />-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>HTML Template</title>
+        <link href="styles/main.css" rel="stylesheet" type="text/css"/>
+
+        
     </head>
     <body>
         <div>
             <img src="https://previews.123rf.com/images/sdecoret/sdecoret1604/sdecoret160400480/55708461-hombre-de-negocios-usando-pantallas-futuristas-con-tablas-y-gr%C3%A1ficos.jpg" alt="futuro" height="400
             px" width="100%">
-          
           </div>
+          
           <div>
-            <h1>Technical Blog</h1> 
-            <p> This is the beginning of my website home page.</p>
-            <p> It will eventually contain a list of links to all my blogs. </p>
+                <div>
+                        <h1>What does it mean to display inline vs inline blocks?</h1> 
+                        <h2>Inline elements:</h2>
+                        <li>Take space only as much as they need</li>
+                        <li>Get displayed side by side</li>
+                        <li>Don’t accept width or height properties, and top-bottom margin</li>
+                        <li>Can be a parent of other inline elements</li>
+                        
+                        <p>We can change the display behavior of elements. So let’s change the display behavior of <strong class="markup--strong markup--p-strong">&lt;p&gt;</strong> tag to <strong class="markup--strong markup--p-strong">inline</strong>:</p>
+                    <center>
+                        <img src="images/inline elements css.png">
+                    </center>
+                    <p>Since our <strong class="markup--strong markup--p-strong">&lt;p&gt;</strong> tag is now an inline element, they will be placed side by side and the <strong class="markup--strong markup--p-strong">width &amp; height</strong> properties have no effect anymore:</p>
+                    <center>
+                            <img src="images/inline element.png">
+                        </center>
+                    <h2>Display: inline-block</h2>
+                    <p>In some cases, both of the display values may not be enough for a better web design. In that point, a 3rd display behavior comes for help and also makes alignment much easier: <code>inline-block</code></p>
+                    <p>As we can understand from its name, <code class="markup--code markup--p-code">display: inline-block</code> declaration shows both the characteristics of inline and block-level elements.</p>
+                    <p>In other words, we can think of an inline element, that <strong class="markup--strong markup--p-strong">width &amp; height </strong> properties can be set, or we can think of a block-level element, that doesn’t have to start with a <strong class="markup--strong markup--p-strong">new line</strong>.</p>  
+                    <p>For a clear understanding, I’m giving our <strong class="markup--strong markup--p-strong">&lt;p&gt;</strong> tag an <strong class="markup--strong markup--p-strong">inline-block</strong> behavior:</p>
+                    <center>
+                            <img src="images/inline block1.png">
+                        </center>
+                        <p>Now they can be placed side by side and also width & height properties can be set:</p>
+                        <center>
+                                <img src="images/inline block2.png">
+                            </center>
+                            <p>The complete list of HTML tags as block & inline elements are <a href="https://www.w3schools.com/html/html_blocks.asp" data-href="https://www.w3schools.com/html/html_blocks.asp" class="markup--anchor markup--blockquote-anchor" rel="nofollow noopener" target="_blank">here</a>.</p>
+
 
             <p><a href="index.html "> Back</a></p>
+        </div>
     </body>
 </html>
