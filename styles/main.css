@@ -15,6 +15,21 @@ h1{
   float: right;
 
 }
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.blockquote {
+  padding: 0 0 0 15px;
+  margin: 0 0 20px;
+  border-left: 5px solid #402929;
+
+}
 
 #header {
         background-color: rgb(36, 233, 125);
@@ -25,6 +40,41 @@ h1{
   font-style: center;
   text-shadow: 0 0 black;
   }
+  /*header sprint 3*/
+  .header{
+    background: rgb(36, 233, 125);
+    color: #ffffff;
+    padding-top: 30px;
+    border: rgb(16, 59, 16) 3px solid;
+    min-height: 80px;
+  }
+
+   
+.cubillos{
+  background-color: #d8ce133b;
+  width: 90%;
+  border: 0px solid green;
+  padding: 25px;
+  margin: 25px;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+  /* The image used */
+  background-image: 
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 
 /*css for column*/
